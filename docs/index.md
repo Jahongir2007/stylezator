@@ -365,7 +365,7 @@ There are a lot of possibilities in this framework.
   </body>
 </html>
 ```
-#Heading in stylezator
+### Heading in stylezator
 ```markdown
 <!DOCTYPE html>
 <html>
