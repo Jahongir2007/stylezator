@@ -52,3 +52,19 @@ There are a lot of possibilities in this framework.
   </body>
 </html>
 ```
+### Grid basic in stylezator
+```markdown
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Document</title>
+    <link rel="stylesheet" href="main/sty_css.css">
+    <script src="main/sty-js.js"></script>
+  </head>
+  <body>
+    <div class="col-pt-f" style="background-color:lavender;"></div>
+    <div class="col-pt-f" style="background-color:lavenderblush;"></div>
+    <div class="col-pt-f" style="background-color:lavender;"></div>
+  </body>
+</html>
+```
