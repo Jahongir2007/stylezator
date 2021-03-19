@@ -12,7 +12,7 @@ There are a lot of possibilities in this framework.
   </head>
   <body>
     <div class="nav-lt sty">
-          <li><a href="#logo" class="act">Stylezator.io</a>
+      <li><a href="#logo" class="act">Stylezator.io</a>
       <li><a href="#docs">Docs</a>
       <li><a href="#themes">Themes</a>
       <li><a href="#plugins">Plugins</a>
