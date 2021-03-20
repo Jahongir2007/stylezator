@@ -510,7 +510,28 @@ There are a lot of possibilities in this framework.
     <a class="btn-dt">Notifacitons <span class="bdg-dt">4</span></a><br><br>
     <a class="btn-sc">Notifacitons <span class="bdg-sc">4</span></a><br><br>
     <!--Label:-->
-    <h5>Hello, world <span class="lbl bg-dn">danger</span></h5>
+    <h5>Hello, world <span class="lbl">danger</span></h5>
+  </body>
+</html>
+```
+Progress bars in stylezator
+```markdown
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Document</title>
+    <link rel="stylesheet" href="main/sty_css.css">
+    <script src="main/sty-js.js"></script>
+  </head>
+  <body>
+    <div class="pb">
+      <div  class="pb-com" role="progressbar" aria-valuenow="70"
+      aria-valuemin="0" aria-valuemax="100" style="width:70%">70%</div>
+    </div><br>
+    <div class="pb">
+      <div  class="pb-com bg-sc" role="progressbar" aria-valuenow="70"
+      aria-valuemin="0" aria-valuemax="100" style="width:50%">70%</div>
+    </div><br>
   </body>
 </html>
 ```
