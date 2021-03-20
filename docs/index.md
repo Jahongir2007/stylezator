@@ -535,3 +535,75 @@ There are a lot of possibilities in this framework.
   </body>
 </html>
 ```
+### Pager and breadcrumb in stylezator
+```markdown
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Document</title>
+    <link rel="stylesheet" href="main/sty_css.css">
+    <script src="main/sty-js.js"></script>
+  </head>
+  <body>
+    <!--Pager:-->
+  <div class="pgn">
+    <a href="#">&laquo;</a>
+    <a href="#" class="act">1</a>
+    <a href="#">2</a>
+    <a href="#">3</a>
+    <a href="#">4</a>
+    <a href="#" class="dsb">5</a>
+    <a href="#">&raquo;</a>
+  </div><br><br>
+    <!--Breadcrumb:-->
+      <ul class="bcm">
+    <li><a href="#">Styleator</a>
+    <li><a href="#examples">Examples</a>
+      <li><a href="#">Docs</a>
+      <li>Me
+  </ul>
+  </body>
+</html>
+```
+### Previous and next buttons (pager) in stylezator
+```markdown
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Document</title>
+    <link rel="stylesheet" href="main/sty_css.css">
+    <script src="main/sty-js.js"></script>
+  </head>
+  <body>
+  <div class="pgr">
+    <a href="#" class="prev">Prevoius</a>
+    <a href="#" class="next">Next</a>
+  </div>
+  </body>
+</html>
+```
+### List groups in stylezator
+```markdown
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Document</title>
+    <link rel="stylesheet" href="main/sty_css.css">
+    <script src="main/sty-js.js"></script>
+  </head>
+  <body>
+   <ul class="li-grp">
+      <li class="li-t">Facebook</li>
+      <li class="li-t">Instagram</li>
+      <li class="li-t">Twitter</li>
+    </ul><br>
+    <!--Hovered list group:-->
+    <ul class="li-grp-hr">
+      <li class="li-t-hr">Facebook</li>
+      <li class="li-t-hr-act">Instagram</li>
+      <li class="li-t-hr">Twitter</li>
+    </ul><br>
+  </body>
+</html>
+
+```
