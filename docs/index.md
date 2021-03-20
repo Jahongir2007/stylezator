@@ -605,5 +605,135 @@ There are a lot of possibilities in this framework.
     </ul><br>
   </body>
 </html>
-
 ```
+### Panels in stylezator
+```markdown
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Document</title>
+    <link rel="stylesheet" href="main/sty_css.css">
+    <script src="main/sty-js.js"></script>
+  </head>
+  <body>
+    <div class="pl-hd">Panel header</div>
+    <div class="pl-dt">Text</div>
+    <div class="pl-ft">Panel footer</div>
+  </body>
+</html>
+```
+### Dropdowns in stylezator
+```markdown
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Document</title>
+    <link rel="stylesheet" href="main/sty_css.css">
+    <script src="main/sty-js.js"></script>
+  </head>
+  <body>
+    <div class="dropdown">
+      <button onclick="dropdown()" class="dropbtn">Dropdown</button>
+      <div id="myDropdown" class="dropdown-content">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </div>
+  </body>
+</html>
+```
+### Collapse in stylezator
+```markdown
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Document</title>
+    <link rel="stylesheet" href="main/sty_css.css">
+    <script src="main/sty-js.js"></script>
+  </head>
+  <body>
+  <button class="collapsible" data-toggle="collapse" data-target="#demo">Open Collapsible</button>
+  <div class="content">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud               exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+  </body>
+</html>
+```
+### Tabs and pills in stylezator
+```markdown
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Document</title>
+    <link rel="stylesheet" href="main/sty_css.css">
+    <script src="main/sty-js.js"></script>
+  </head>
+  <body>
+    <!--Tabs:-->
+<div class="tab">
+  <button class="tablinks" onclick="openTab(event, 'London')">London</button>
+  <button class="tablinks" onclick="openTab(event, 'Paris')">Paris</button>
+  <button class="tablinks" onclick="openTab(event, 'Tokyo')">Tokyo</button>
+</div>
+
+<div id="London" class="tabcontent">
+  <h3>London</h3>
+  <p>London is the capital city of England.</p>
+</div>
+
+<div id="Paris" class="tabcontent">
+  <h3>Paris</h3>
+  <p>Paris is the capital of France.</p> 
+</div>
+
+<div id="Tokyo" class="tabcontent">
+  <h3>Tokyo</h3>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
+    <!--Pills:-->
+    <button class="pillbtn">Pill Button 1</button>
+    <button class="pillbtn">Pill Button 2</button>
+  </body>
+</html>
+```
+### Forms and inputs in stylezator
+```markdown
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Document</title>
+    <link rel="stylesheet" href="main/sty_css.css">
+    <script src="main/sty-js.js"></script>
+  </head>
+  <body>
+<div class="fr-hor">
+  Email: <input placeholder="Email" class="fr-hr-inp"><br>
+  Password: <input placeholder="Password" class="fr-hr-inp">
+</div>
+  </body>
+</html>
+```
+### Stylezator filter
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Document</title>
+    <link rel="stylesheet" href="main/sty_css.css">
+    <script src="main/sty-js.js"></script>
+  </head>
+  <body>
+<input type="text" id="myInput" onkeyup="myFilter()" placeholder="Search for names..">
+
+<ul id="myUL">
+  <li><a href="#">Adele</a></li>
+  <li><a href="#">Agnes</a></li>
+
+  <li><a href="#">Billy</a></li>
+  <li><a href="#">Bob</a></li>
+
+  <li><a href="#">Calvin</a></li>
+  <li><a href="#">Christina</a></li>
+  <li><a href="#">Cindy</a></li>
+</ul>
+  </body>
+</html>
