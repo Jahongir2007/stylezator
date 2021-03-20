@@ -739,3 +739,6 @@ There are a lot of possibilities in this framework.
   </body>
 </html>
 ```
+### Warning
+Because this framework does not have online codes, you will need to download it from github.
+Stylezator Group Inc copyright 2021. All rights reserved. Author: Jahongir Sobirov. 
