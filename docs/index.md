@@ -514,7 +514,7 @@ There are a lot of possibilities in this framework.
   </body>
 </html>
 ```
-Progress bars in stylezator
+### Progress bars in stylezator
 ```markdown
 <!DOCTYPE html>
 <html>
