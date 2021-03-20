@@ -714,6 +714,7 @@ There are a lot of possibilities in this framework.
 </html>
 ```
 ### Stylezator filter
+```markdown
 <!DOCTYPE html>
 <html>
   <head>
@@ -737,3 +738,4 @@ There are a lot of possibilities in this framework.
 </ul>
   </body>
 </html>
+```
