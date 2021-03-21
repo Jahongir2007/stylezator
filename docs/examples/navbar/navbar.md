@@ -8,7 +8,7 @@
     <script src="main/sty-js.js"></script>
   </head>
   <body>
-    <div class="nav-lt sty">
+    <div class="navbar">
       <li><a href="#logo" class="act">Stylezator.io</a>
       <li><a href="#docs">Docs</a>
       <li><a href="#themes">Themes</a>
