@@ -1,4 +1,4 @@
-## Stylezator
+## Stylezator  1.2.4
 You can easily create a website through Stylezator ui framework. 
 There are a lot of possibilities in this framework. Offical web page: https://jahongir2007.github.io/stylezator/
 ### Navbars in stylezator.
