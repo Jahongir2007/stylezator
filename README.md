@@ -161,6 +161,27 @@ There are a lot of possibilities in this framework. Offical web page: https://ja
    </body>
  </html>
 ```
+### Box and contents in stylezator 1.5.0 (new)
+```markdown
+<!DOCTYPE html>
+ <html>
+  <head>
+   <title>docs</title>
+   <link rel="stylesheet" href="main/sty_css.css">
+   <script src="main/sty_js.js"></script>
+  </head>
+  <body>
+   <div class="box">
+    ...
+   </div>
+   
+   <div class="content">
+    ...
+   </div>
+   </body>
+ </html>
+```
+
 ### Navbars in stylezator.
 ```markdown
 <!DOCTYPE html>
