@@ -1,6 +1,33 @@
-## Stylezator
-You can easily create a website through Stylezator ui framework. 
+## Stylezator 1.5.0 (new version)
+You can easily create a website through Stylezator ui framework.
 There are a lot of possibilities in this framework. Offical web page: https://jahongir2007.github.io/stylezator/
+### News in this version
+### Off-canvas menu in stylezator 1.5.0 (new)
+```markdown
+<!DOCTYPE html>
+ <html>
+  <head>
+   <title>docs</title>
+   <link rel="stylesheet" href="main/sty_css.css">
+   <script src="main/sty_js.js"></script>
+  </head>
+  <body>
+   <div id="mySidenav" class="sidenav-an">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Clients</a>
+    <a href="#">Contact</a>
+   </div>
+   <span onclick="openNav()">open</span>
+
+        <div id="main">
+          ...
+    </div>
+   </body>
+ </html>
+```
+
 ### Navbars in stylezator.
 ```markdown
 <!DOCTYPE html>
