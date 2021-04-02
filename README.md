@@ -50,7 +50,7 @@ There are a lot of possibilities in this framework. Offical web page: https://ja
         </body>
       </html>
 ```
-### Off-canvas menu in stylezator 1.5.0 (new)
+### Button group in stylezator 1.5.0 (new)
 ```markdown
 <!DOCTYPE html>
  <html>
