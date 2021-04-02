@@ -1,6 +1,187 @@
-## Stylezator 1.2.4
-You can easily create a website through Stylezator ui framework. 
-There are a lot of possibilities in this framework.
+## Stylezator 1.5.0 (new version)
+You can easily create a website through Stylezator ui framework.
+There are a lot of possibilities in this framework. Offical web page: https://jahongir2007.github.io/stylezator/
+### News in this version
+### Off-canvas menu in stylezator 1.5.0 (new)
+```markdown
+<!DOCTYPE html>
+ <html>
+  <head>
+   <title>docs</title>
+   <link rel="stylesheet" href="main/sty_css.css">
+   <script src="main/sty_js.js"></script>
+  </head>
+  <body>
+   <div id="mySidenav" class="sidenav-an">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Clients</a>
+    <a href="#">Contact</a>
+   </div>
+   <span onclick="openNav()">open</span>
+
+        <div id="main">
+          ...
+    </div>
+   </body>
+ </html>
+```
+### Vertical menu in stylezator 1.5.0 (new)
+```markdown
+    <!DOCTYPE html>
+      <html lang="en">
+        <head>
+         <meta charset="UTF-8">
+         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <title>Document</title>
+         <link rel="stylesheet" href="sty_css.css">
+         <script src="sty_js.js"></script>
+        </head>
+        <body>
+          <div class="vertical-menu">
+            <a href="#" class="vertical-menu-active">Home</a>
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+            <a href="#">Link 4</a>
+          </div>
+        </body>
+      </html>
+```
+### Button group in stylezator 1.5.0 (new)
+```markdown
+<!DOCTYPE html>
+ <html>
+  <head>
+   <title>docs</title>
+   <link rel="stylesheet" href="main/sty_css.css">
+   <script src="main/sty_js.js"></script>
+  </head>
+  <body>
+   <div class="box">
+     <div class="btn-group">
+      <button>Apple</button>
+      <button>Samsung</button>
+      <button>Sony</button>
+    </div>
+   </div>
+   </body>
+ </html>
+```
+### Vertical button group in stylezator 1.5.0 (new)
+```markdown
+<!DOCTYPE html>
+ <html>
+  <head>
+   <title>docs</title>
+   <link rel="stylesheet" href="main/sty_css.css">
+   <script src="main/sty_js.js"></script>
+  </head>
+  <body>
+   <div class="box">
+     <div class="btn-group">
+      <button>Apple</button>
+      <button>Samsung</button>
+      <button>Sony</button>
+    </div>
+   </div>
+   </body>
+ </html>
+```
+### Toggle Switch in stylezator 1.5.0 (new)
+```markdown
+<!DOCTYPE html>
+ <html>
+  <head>
+   <title>docs</title>
+   <link rel="stylesheet" href="main/sty_css.css">
+   <script src="main/sty_js.js"></script>
+  </head>
+  <body>
+<!-- Rectangular switch -->
+<label class="switch">
+  <input type="checkbox">
+  <span class="slider"></span>
+</label>
+
+<!-- Rounded switch -->
+<label class="switch">
+  <input type="checkbox">
+  <span class="slider round"></span>
+</label>
+   </body>
+ </html>
+```
+### Mega menu in stylezator 1.5.0 (new)
+```markdown
+<!DOCTYPE html>
+ <html>
+  <head>
+   <title>docs</title>
+   <link rel="stylesheet" href="main/sty_css.css">
+   <script src="main/sty_js.js"></script>
+  </head>
+  <body>
+ <div class="meganavbar">
+    <a href="#home">Home</a>
+    <a href="#news">News</a>
+    <div class="megadropdown">
+      <button class="megadropbtn">Dropdown
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="megadropdown-content">
+        <div class="header">
+          <h2>Mega Menu</h2>
+        </div>
+        <div class="megarow">
+          <div class="megacolumn">
+            <h3>Category 1</h3>
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+          <div class="megacolumn">
+            <h3>Category 2</h3>
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+          <div class="megacolumn">
+            <h3>Category 3</h3>
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+   </body>
+ </html>
+```
+### Box and contents in stylezator 1.5.0 (new)
+```markdown
+<!DOCTYPE html>
+ <html>
+  <head>
+   <title>docs</title>
+   <link rel="stylesheet" href="main/sty_css.css">
+   <script src="main/sty_js.js"></script>
+  </head>
+  <body>
+   <div class="box">
+    ...
+   </div>
+   
+   <div class="content">
+    ...
+   </div>
+   </body>
+ </html>
+```
+
 ### Navbars in stylezator.
 ```markdown
 <!DOCTYPE html>
