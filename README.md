@@ -50,6 +50,26 @@ There are a lot of possibilities in this framework. Offical web page: https://ja
         </body>
       </html>
 ```
+### Off-canvas menu in stylezator 1.5.0 (new)
+```markdown
+<!DOCTYPE html>
+ <html>
+  <head>
+   <title>docs</title>
+   <link rel="stylesheet" href="main/sty_css.css">
+   <script src="main/sty_js.js"></script>
+  </head>
+  <body>
+   <div class="box">
+     <div class="btn-group">
+      <button>Apple</button>
+      <button>Samsung</button>
+      <button>Sony</button>
+    </div>
+   </div>
+   </body>
+ </html>
+```
 
 ### Navbars in stylezator.
 ```markdown
