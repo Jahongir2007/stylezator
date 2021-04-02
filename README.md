@@ -114,6 +114,53 @@ There are a lot of possibilities in this framework. Offical web page: https://ja
    </body>
  </html>
 ```
+### Mega menu in stylezator 1.5.0 (new)
+```markdown
+<!DOCTYPE html>
+ <html>
+  <head>
+   <title>docs</title>
+   <link rel="stylesheet" href="main/sty_css.css">
+   <script src="main/sty_js.js"></script>
+  </head>
+  <body>
+ <div class="meganavbar">
+    <a href="#home">Home</a>
+    <a href="#news">News</a>
+    <div class="megadropdown">
+      <button class="megadropbtn">Dropdown
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="megadropdown-content">
+        <div class="header">
+          <h2>Mega Menu</h2>
+        </div>
+        <div class="megarow">
+          <div class="megacolumn">
+            <h3>Category 1</h3>
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+          <div class="megacolumn">
+            <h3>Category 2</h3>
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+          <div class="megacolumn">
+            <h3>Category 3</h3>
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+   </body>
+ </html>
+```
 ### Navbars in stylezator.
 ```markdown
 <!DOCTYPE html>
