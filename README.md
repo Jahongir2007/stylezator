@@ -90,7 +90,30 @@ There are a lot of possibilities in this framework. Offical web page: https://ja
    </body>
  </html>
 ```
+### Toggle Switch in stylezator 1.5.0 (new)
+```markdown
+<!DOCTYPE html>
+ <html>
+  <head>
+   <title>docs</title>
+   <link rel="stylesheet" href="main/sty_css.css">
+   <script src="main/sty_js.js"></script>
+  </head>
+  <body>
+<!-- Rectangular switch -->
+<label class="switch">
+  <input type="checkbox">
+  <span class="slider"></span>
+</label>
 
+<!-- Rounded switch -->
+<label class="switch">
+  <input type="checkbox">
+  <span class="slider round"></span>
+</label>
+   </body>
+ </html>
+```
 ### Navbars in stylezator.
 ```markdown
 <!DOCTYPE html>
