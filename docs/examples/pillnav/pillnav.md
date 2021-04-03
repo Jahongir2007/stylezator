@@ -1,0 +1,22 @@
+### Pill navigataion in stylezator
+```markdown
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main/sty_css.css">
+    <script src="main/sty_js.js"></script>
+</head>
+<body>
+  <div class="pill-nav">
+    <a class="pill-active" href="#home">Home</a>
+    <a href="#news">News</a>
+    <a href="#contact">Contact</a>
+    <a href="#about">About</a>
+  </div>
+</body>
+</html>
+```
