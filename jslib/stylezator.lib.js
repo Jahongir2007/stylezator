@@ -45,3 +45,24 @@ function myFilter() {
     }
   }
 }
+function scrollIndecator() {
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  document.getElementById("myBar").style.width = scrolled + "%";
+}
+var acc = document.getElementsByClassName("accordion");
+var a;
+
+for (a = 0; a < acc.length; a++) {
+  acc[a].addEventListener("click", function() {
+    this.classList.toggle("active");
+
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
