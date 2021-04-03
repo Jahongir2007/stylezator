@@ -1,3 +1,8 @@
+/*
+    This Stylezator JS library
+    This version supported Stylezator 1.5.0 
+    Author: Jahongir Sobirov
+*/
 function dropdown(selector){
     document.querySelector(selector).classList.toggle("show");
     window.onclick = function(event) {
@@ -50,19 +55,4 @@ function scrollIndecator() {
   var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
   var scrolled = (winScroll / height) * 100;
   document.getElementById("myBar").style.width = scrolled + "%";
-}
-var acc = document.getElementsByClassName("accordion");
-var a;
-
-for (a = 0; a < acc.length; a++) {
-  acc[a].addEventListener("click", function() {
-    this.classList.toggle("active");
-
-    var panel = this.nextElementSibling;
-    if (panel.style.display === "block") {
-      panel.style.display = "none";
-    } else {
-      panel.style.display = "block";
-    }
-  });
 }
