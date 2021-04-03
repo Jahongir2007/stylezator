@@ -33,3 +33,17 @@ a:hover{
   text-decoration: $link-hover;
 }
 ```
+### Text align myscss stylezator plugin
+```markdown
+@import "myscss"
+body{
+  text-align: $t-center;
+}
+```
+### Grid basic system myscss stylezator plugin
+```markdown
+@import "myscss"
+body{
+  width: $col-5;
+}
+```
