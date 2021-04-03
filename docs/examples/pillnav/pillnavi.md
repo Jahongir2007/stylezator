@@ -8,11 +8,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="main/sty_css.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="main/sty_js.js"></script>
 </head>
 <body>
-  <div class="pill-nav">
-    <a class="pill-active" href="#home">Home</a>
+  <div class="pill-nav-vertical">
+    <a class="pill-active-vertical" href="#home">Home</a>
     <a href="#news">News</a>
     <a href="#contact">Contact</a>
     <a href="#about">About</a>
