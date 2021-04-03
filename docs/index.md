@@ -1,6 +1,6 @@
 ## Stylezator 1.5.0 (new version)
 You can easily create a website through Stylezator ui framework.
-There are a lot of possibilities in this framework. Offical web page: https://jahongir2007.github.io/stylezator/
+There are a lot of possibilities in this framework.
 ### News in this version
 ### Off-canvas menu in stylezator 1.5.0 (new)
 ```markdown
