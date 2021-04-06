@@ -1,6 +1,6 @@
 ## How to use Stylezator less plugin?
 With this plugin you can add a stylezator style to your style created in less.
-```markdown
+```less
 //use myless plugin:
 
 @import "myless.less"
