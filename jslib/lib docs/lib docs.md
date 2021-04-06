@@ -1,11 +1,11 @@
 ### Dropdowns in stylezator library
-```markdown
+```javascript
     MyFunction(){
       dropdown('#MyDropdown');
     }
 ```
 ### Tabs in stylezator library
-```markdown
+```javascript
     MyApp(){
       tabs(event, tabname);
     }
