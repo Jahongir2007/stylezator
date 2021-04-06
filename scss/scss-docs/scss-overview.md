@@ -1,5 +1,5 @@
 ### Colours in myscss stylezator plugin
-```markdown
+```scss
 @import "myscss"
 div{
   background-color: $primary;
@@ -9,21 +9,21 @@ div{
 }
 ```
 ### Typographyn myscss stylezator plugin
-```markdown
+```scss
 @import "myscss"
 .list{
   list-style-type: $list-square;
 }
 ```
 ### Images myscss stylezator plugin
-```markdown
+```scss
 @import "myscss"
 img{
   border-radius: $img-circle;
 }
 ```
 ### Links myscss stylezator plugin
-```markdown
+```scss
 @import "myscss"
 a{
   color: $link-color;
@@ -34,14 +34,14 @@ a:hover{
 }
 ```
 ### Text align myscss stylezator plugin
-```markdown
+```scss
 @import "myscss"
 body{
   text-align: $t-center;
 }
 ```
 ### Grid basic system myscss stylezator plugin
-```markdown
+```scss
 @import "myscss"
 body{
   width: $col-5;
