@@ -1,5 +1,5 @@
 ## Text aligns in myless plugin
-```markdown
+```less
 @import "myless.less"
 p{
   text-align: @t-center;
