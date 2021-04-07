@@ -2,7 +2,7 @@
 You can easily create a website through Stylezator ui framework. 
 There are a lot of possibilities in this framework. Offical web page: https://jahongir2007.github.io/stylezator/
 ### Forms and inputs in stylezator 1.5.1
-```htm
+```html
 <!DOCTYPE html>
 <html>
   <head>
@@ -36,7 +36,7 @@ There are a lot of possibilities in this framework. Offical web page: https://ja
 </html>
 ```
 ### Heading in stylezator 1.5.1
-```htm
+```html
 <!DOCTYPE html>
 <html>
   <head>
@@ -975,6 +975,19 @@ There are a lot of possibilities in this framework. Offical web page: https://ja
 </ul>
   </body>
 </html>
+```
+## Stylezator JS
+### Dropdowns in stylezator js library
+```javascript
+    MyFunction(){
+      dropdown('#MyDropdown');
+    }
+```
+### Tabs in stylezator js library
+```javascript
+    MyApp(){
+      tabs(event, tabname);
+    }
 ```
 ### Warning
 Because this framework does not have online codes, you will need to download it from github.
