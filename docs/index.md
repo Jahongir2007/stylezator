@@ -977,6 +977,9 @@ There are a lot of possibilities in this framework. Offical web page: https://ja
 </html>
 ```
 ## Stylezator JS
+```markdown
+<script src="stylezator.lib.js"></script>
+```
 ### Dropdowns in stylezator js library
 ```javascript
     MyFunction(){
