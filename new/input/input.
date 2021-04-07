@@ -1,0 +1,15 @@
+### Input in stylezator 1.5.1
+```htm
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Document</title>
+    <link rel="stylesheet" href="main/sty_css.css">
+    <script src="main/sty-js.js"></script>
+  </head>
+  <body>
+      <label for="me">Name</label>
+      <input class="bottom-border-input" name="me" placeholder="Name..." type="text"><br><br>
+  </body>
+</html>
+```
