@@ -1,8 +1,64 @@
-## Stylezator 1.5.0 (new version)
+## Stylezator  1.5.1 (new version)
+You can easily create a website through Stylezator ui framework. 
+There are a lot of possibilities in this framework. Offical web page: https://jahongir2007.github.io/stylezator/
+### Forms and inputs in stylezator 1.5.1
+```htm
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Document</title>
+    <link rel="stylesheet" href="main/sty_css.css">
+    <script src="main/sty-js.js"></script>
+  </head>
+  <body>
+   <div class="box"> 
+    <div class="form-box">
+        <form action="/action_page.php">
+          <label for="fname">First Name</label>
+          <input class="form-input" type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input class="form-input" type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+          </select>
+          <input class="submit-input" type="submit" value="Submit">
+        </form>
+      </div>
+      </div> 
+      <label for="me">Name</label>
+      <input class="bottom-border-input" name="me" placeholder="Name..." type="text"><br><br>
+  </body>
+</html>
+```
+### Heading in stylezator 1.5.1
+```htm
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Document</title>
+    <link rel="stylesheet" href="main/sty_css.css">
+    <script src="main/sty-js.js"></script>
+  </head>
+  <body>
+    <div class="web-head">
+        <center>
+        <h1>Stylezator web framework</h1>
+        <p>Lore ipsum dolor it</p>
+    </center>
+    </div><br><br>
+  </body>
+</html>
+```
+## Stylezator 1.5.0 
 You can easily create a website through Stylezator ui framework.
 There are a lot of possibilities in this framework. Offical web page: https://jahongir2007.github.io/stylezator/
 ### News in this version
-### Off-canvas menu in stylezator 1.5.0 (new)
+### Off-canvas menu in stylezator 1.5.0 
 ```markdown
 <!DOCTYPE html>
  <html>
@@ -27,7 +83,7 @@ There are a lot of possibilities in this framework. Offical web page: https://ja
    </body>
  </html>
 ```
-### Vertical menu in stylezator 1.5.0 (new)
+### Vertical menu in stylezator 1.5.0
 ```markdown
     <!DOCTYPE html>
       <html lang="en">
@@ -50,7 +106,7 @@ There are a lot of possibilities in this framework. Offical web page: https://ja
         </body>
       </html>
 ```
-### Button group in stylezator 1.5.0 (new)
+### Button group in stylezator 1.5.0 
 ```markdown
 <!DOCTYPE html>
  <html>
@@ -70,7 +126,7 @@ There are a lot of possibilities in this framework. Offical web page: https://ja
    </body>
  </html>
 ```
-### Vertical button group in stylezator 1.5.0 (new)
+### Vertical button group in stylezator 1.5.0 
 ```markdown
 <!DOCTYPE html>
  <html>
@@ -90,7 +146,7 @@ There are a lot of possibilities in this framework. Offical web page: https://ja
    </body>
  </html>
 ```
-### Toggle Switch in stylezator 1.5.0 (new)
+### Toggle Switch in stylezator 1.5.0 
 ```markdown
 <!DOCTYPE html>
  <html>
@@ -114,7 +170,7 @@ There are a lot of possibilities in this framework. Offical web page: https://ja
    </body>
  </html>
 ```
-### Mega menu in stylezator 1.5.0 (new)
+### Mega menu in stylezator 1.5.0 
 ```markdown
 <!DOCTYPE html>
  <html>
@@ -161,7 +217,7 @@ There are a lot of possibilities in this framework. Offical web page: https://ja
    </body>
  </html>
 ```
-### Box and contents in stylezator 1.5.0 (new)
+### Box and contents in stylezator 1.5.0 
 ```markdown
 <!DOCTYPE html>
  <html>
