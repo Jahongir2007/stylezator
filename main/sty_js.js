@@ -3,7 +3,7 @@
     Licencse: MIT
     Stylezator Group Inc, copyright 2021 All rights reserved
     Stylezator UI framework
-    Version: 1.2.4
+    Version: 1.5.1
 */
 function dropdown() {
     document.getElementById("myDropdown").classList.toggle("show");
@@ -128,4 +128,47 @@ window.onclick = function(event) {
   if (event.target == modal) {
     modal.style.display = "none";
   }
+}
+
+var modal = document.getElementById("myModal");
+
+var btn = document.getElementById("myBtn");
+
+var span = document.getElementsByClassName("close")[0];
+
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+window.onscroll = function() {myFunction()};
+
+function scrollIndecator() {
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  document.getElementById("myBar").style.width = scrolled + "%";
+}
+var acc = document.getElementsByClassName("accordion");
+var a;
+
+for (a = 0; a < acc.length; a++) {
+  acc[a].addEventListener("click", function() {
+    this.classList.toggle("active");
+
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
 }
